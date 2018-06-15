@@ -76,28 +76,37 @@ module.exports =
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 var _jsxFileName = "/Users/Carlo/Desktop/github/react/nextjs/components/Users.js";
 
 
+
 var user = function user(props) {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+    },
+    className: "jsx-735088722"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
-    }
-  }, props.name), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    },
+    className: "jsx-735088722"
+  }, props.name), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
-    }
-  }, "Age: ", props.age));
+    },
+    className: "jsx-735088722"
+  }, "Age: ", props.age), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
+    styleId: "735088722",
+    css: "div.jsx-735088722{border:1px solid #eee;box-shadow:0 2px 3px #ccc;padding:20px;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvVXNlcnMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBTW9CLEFBR3VDLHNCQUNJLDBCQUNiLGFBQ0ssa0JBQ3RCIiwiZmlsZSI6ImNvbXBvbmVudHMvVXNlcnMuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL0NhcmxvL0Rlc2t0b3AvZ2l0aHViL3JlYWN0L25leHRqcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmNvbnN0IHVzZXIgPSAocHJvcHMpID0+IChcbiAgICA8ZGl2PlxuICAgICAgICA8aDE+e3Byb3BzLm5hbWV9PC9oMT5cbiAgICAgICAgPHA+QWdlOiB7cHJvcHMuYWdlfTwvcD5cbiAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgICAgZGl2IHtcbiAgICAgICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAjZWVlO1xuICAgICAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDNweCAjY2NjO1xuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgfVxuICAgICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCB1c2VyOyJdfQ== */\n/*@ sourceURL=components/Users.js */"
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (user);
@@ -153,6 +162,13 @@ module.exports = __webpack_require__("./pages/auth/index.js");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ })
 
